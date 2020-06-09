@@ -1,5 +1,9 @@
 .title {
   text-align: center;
   font-size: x-large;
-  color: rgba(230, 63, 245, 80);
+  color: white;
+}
+
+div.computer {
+  content: url("https://cdn.discordapp.com/attachments/700337531710996480/719986923166367854/clipart-computer-old-fashioned.png");
 }

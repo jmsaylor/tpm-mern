@@ -30,7 +30,7 @@ body {
   background-color: black;
   animation-name: ruby;
   animation-duration: 100s;
-  animation-direction: alternate;
+  animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
   background-image: url("https://cdn.discordapp.com/attachments/707570535768522872/718376580942135306/image0.png");
   margin: 0;
