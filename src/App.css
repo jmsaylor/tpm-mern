@@ -4,6 +4,19 @@
   color: white;
 }
 
+.HomePage {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.NavBar {
+  background-color: rgba(255, 255, 255, 0.3);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
 div.computer {
   content: url("https://cdn.discordapp.com/attachments/700337531710996480/719986923166367854/clipart-computer-old-fashioned.png");
 }
