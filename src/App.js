@@ -1,9 +1,10 @@
 import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import Computer from "./components/Computer";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Info from "./components/Info";
 
 const App = () => {
   return (
@@ -16,10 +17,12 @@ const App = () => {
             <NavBar />
           </div>
         </Route>
-        <Route path='projects' exact></Route>
-        <Route path='members' exact></Route>
-        <Route path='statistics' exact></Route>
-        <Route path='info' exact></Route>
+        <Route path='/projects' exact></Route>
+        <Route path='/members' exact></Route>
+        <Route path='/statistics' exact></Route>
+        <Route path='/info' exact>
+          <Info />
+        </Route>
       </Switch>
     </BrowserRouter>
   );

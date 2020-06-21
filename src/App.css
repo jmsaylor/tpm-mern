@@ -9,6 +9,10 @@
   flex-wrap: wrap;
 }
 
+.Info {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 .NavBar {
   background-color: rgba(255, 255, 255, 0.3);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
