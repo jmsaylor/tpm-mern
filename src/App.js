@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import Computer from "./components/Computer";
+import Projects from "./components/Projects";
 import Info from "./components/Info";
 
 const App = () => {
@@ -17,7 +18,9 @@ const App = () => {
             <NavBar />
           </div>
         </Route>
-        <Route path='/projects' exact></Route>
+        <Route path='/projects' exact>
+          <Projects />
+        </Route>
         <Route path='/members' exact></Route>
         <Route path='/statistics' exact></Route>
         <Route path='/info' exact>
