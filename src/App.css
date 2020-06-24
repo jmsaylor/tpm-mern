@@ -1,4 +1,4 @@
-.title {
+.Header {
   text-align: center;
   font-size: x-large;
   color: white;
@@ -11,6 +11,22 @@
 
 .Info {
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+.Projects {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ProjectCard {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 30%;
+  text-align: left;
+  margin: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: pink;
 }
 
 .NavBar {

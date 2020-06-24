@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <Link className='title' to='/'>
-      Tech Project Mix
-    </Link>
+    <div className='Header'>
+      <Link to='/'>Tech Project Mix</Link>
+    </div>
   );
 }
 
